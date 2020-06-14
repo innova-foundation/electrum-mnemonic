@@ -45,7 +45,7 @@ function generateMnemonic(opts) {
 exports.generateMnemonic = generateMnemonic;
 const DEFAULTOPTS = {
   passphrase: '',
-  prefix: exports.PREFIXES.segwit,
+  prefix: exports.PREFIXES.standard,
   skipCheck: false,
 };
 function mnemonicToSeedSync(mnemonic, opts) {
