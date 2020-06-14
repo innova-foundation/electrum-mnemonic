@@ -7,13 +7,13 @@ const ENGLISH = require('./wordlists/english.json');
 const encoding_1 = require('./encoding');
 const INVALID_MNEMONIC_MESSAGE = 'Invalid Seed Version for mnemonic';
 exports.PREFIXES = {
-  segwit: '100',
-  standard: '01',
+  segwit: '100', //Not Used for D
+  standard: '30', //D for Denarius
   '2fa': '101',
   '2fa-segwit': '102',
 };
 const DEFAULTGENOPTS = {
-  prefix: exports.PREFIXES.segwit,
+  prefix: exports.PREFIXES.standard,
   strength: 132,
   rng: randombytes,
   wordlist: ENGLISH,
