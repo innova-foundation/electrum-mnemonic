@@ -5,7 +5,7 @@
 
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
-Updated for usage with Denarius (D) (Standard (Legacy) Addresses start with a D)
+Updated for usage with Innova (INN) (Standard (Legacy) Addresses start with a i)
 
 ## Install
 

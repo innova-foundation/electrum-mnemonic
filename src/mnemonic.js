@@ -7,8 +7,8 @@ const ENGLISH = require('./wordlists/english.json');
 const encoding_1 = require('./encoding');
 const INVALID_MNEMONIC_MESSAGE = 'Invalid Seed Version for mnemonic';
 exports.PREFIXES = {
-  segwit: '100', //Not Used for D
-  standard: '30', //D for Denarius
+  segwit: '100', // Not Used for INN
+  standard: '102', // i
   '2fa': '101',
   '2fa-segwit': '102',
 };
